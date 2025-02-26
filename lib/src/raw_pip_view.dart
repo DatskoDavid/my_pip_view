@@ -315,7 +315,7 @@ Map<PIPViewCorner, Offset> _calculateOffsets({
     final top = spacing + windowPadding.top;
     final right =
         spaceSize.width - widgetSize.width - windowPadding.right - spacing;
-    final extraBottomPadding = 32; // Adjust this value as needed
+    final extraBottomPadding = 200; // Adjust this value as needed
     final bottom = spaceSize.height -
         widgetSize.height -
         windowPadding.bottom -
